@@ -1,24 +1,24 @@
 {
-  "auth":           "github:markldevine",
-  "authors":        [ "Mark Devine <mark@markdevine.com>" ],
-  "depends":        [
-    "Hypervisor::IBM::POWER::HMC::REST::Atom",
-    "Hypervisor::IBM::POWER::HMC::REST::Config",
-    "Hypervisor::IBM::POWER::HMC::REST::ETL::XML"
-  ],
-  "description":    "IBM POWER HMC REST API - PowerEnterprisePool",
-  "license":        "Artistic-2.0",
-  "meta-version":   0,
-  "name":           "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool",
-  "perl":           "6.*",
-  "provides":       {
-    "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool": "lib/Hypervisor/IBM/POWER/HMC/REST/PowerEnterprisePool.rakumod",
-  },
-  "resources":      [],
-  "source-url":     "https://github.com/markldevine/raku-Hypervisor-IBM-POWER-HMC-REST-PowerEnterprisePool.git",
-  "tags":           [
-    "HMC",
-    "REST"
-  ],
-  "version":        "0.0.1"
+    "auth":         "github:markldevine",
+    "authors":      [ "Mark Devine <mark@markdevine.com>" ],
+    "depends":      [
+        "Hypervisor::IBM::POWER::HMC::REST::Atom",
+        "Hypervisor::IBM::POWER::HMC::REST::Config",
+        "Hypervisor::IBM::POWER::HMC::REST::ETL::XML"
+    ],
+    "description":  "IBM POWER HMC REST API - PowerEnterprisePool",
+    "license":      "Artistic-2.0",
+    "meta-version": 0,
+    "name":         "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool",
+    "perl":         "6.*",
+    "provides":     {
+        "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool": "lib/Hypervisor/IBM/POWER/HMC/REST/PowerEnterprisePool.rakumod"
+    },
+    "resources":    [],
+    "source-url":   "https://github.com/markldevine/raku-Hypervisor-IBM-POWER-HMC-REST-PowerEnterprisePool.git",
+    "tags":         [
+        "HMC",
+        "REST"
+    ],
+    "version":      "0.0.1"
 }
