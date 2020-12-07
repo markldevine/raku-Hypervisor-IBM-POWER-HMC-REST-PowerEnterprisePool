@@ -12,18 +12,7 @@
   "name":           "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool",
   "perl":           "6.*",
   "provides":       {
-    "Hypervisor::IBM::POWER::HMC::REST::HMC": "lib/Hypervisor/IBM/POWER/HMC/REST/HMC.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Atom": "lib/Hypervisor/IBM/POWER/HMC/REST/Atom.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Cluster": "lib/Hypervisor/IBM/POWER/HMC/REST/Cluster.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Events": "lib/Hypervisor/IBM/POWER/HMC/REST/Events.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Events::Event": "lib/Hypervisor/IBM/POWER/HMC/REST/Events/Event.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Logon::X-API-Session": "lib/Hypervisor/IBM/POWER/HMC/REST/Logon/X-API-Session.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Messaging::DIAG": "lib/Hypervisor/IBM/POWER/HMC/REST/Messaging/DIAG.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Messaging::DUMP": "lib/Hypervisor/IBM/POWER/HMC/REST/Messaging/DUMP.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Messaging::INFO": "lib/Hypervisor/IBM/POWER/HMC/REST/Messaging/INFO.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::Messaging::NOTE": "lib/Hypervisor/IBM/POWER/HMC/REST/Messaging/NOTE.rakumod",
     "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool": "lib/Hypervisor/IBM/POWER/HMC/REST/PowerEnterprisePool.rakumod",
-    "Hypervisor::IBM::POWER::HMC::REST::SystemTemplate": "lib/Hypervisor/IBM/POWER/HMC/REST/SystemTemplate.rakumod"
   },
   "resources":      [],
   "source-url":     "https://github.com/markldevine/raku-Hypervisor-IBM-POWER-HMC-REST-PowerEnterprisePool.git",
