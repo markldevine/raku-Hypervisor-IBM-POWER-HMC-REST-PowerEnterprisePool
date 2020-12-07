@@ -1,29 +1,17 @@
 {
-  "auth": "github:markldevine",
-  "authors": [ "Mark Devine <mark@markdevine.com>" ],
-  "depends": [
-    "Data::Dump::Tree",
-    "HTTP::UserAgent",
-    "HTTP::Request::Common",
-    "IP::Addr",
-    "KHPH",
-    "LibXML",
-    "Linux::Cpuinfo",
-    "MessageStream",
-    "OO::Monitors",
-    "POSIX::getaddrinfo",
-    "Term::Choose",
-    "Term::TablePrint",
-    "Terminal::ANSIColor",
-    "URI",
-    "XML"
+  "auth":           "github:markldevine",
+  "authors":        [ "Mark Devine <mark@markdevine.com>" ],
+  "depends":        [
+    "Hypervisor::IBM::POWER::HMC::REST::Atom",
+    "Hypervisor::IBM::POWER::HMC::REST::Config",
+    "Hypervisor::IBM::POWER::HMC::REST::ETL::XML"
   ],
-  "description": "IBM POWER HMC REST API",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "Hypervisor::IBM::POWER::HMC::REST",
-  "perl": "6.d",
-  "provides": {
+  "description":    "IBM POWER HMC REST API - PowerEnterprisePool",
+  "license":        "Artistic-2.0",
+  "meta-version":   0,
+  "name":           "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool",
+  "perl":           "6.*",
+  "provides":       {
     "Hypervisor::IBM::POWER::HMC::REST::HMC": "lib/Hypervisor/IBM/POWER/HMC/REST/HMC.rakumod",
     "Hypervisor::IBM::POWER::HMC::REST::Atom": "lib/Hypervisor/IBM/POWER/HMC/REST/Atom.rakumod",
     "Hypervisor::IBM::POWER::HMC::REST::Cluster": "lib/Hypervisor/IBM/POWER/HMC/REST/Cluster.rakumod",
@@ -37,11 +25,11 @@
     "Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool": "lib/Hypervisor/IBM/POWER/HMC/REST/PowerEnterprisePool.rakumod",
     "Hypervisor::IBM::POWER::HMC::REST::SystemTemplate": "lib/Hypervisor/IBM/POWER/HMC/REST/SystemTemplate.rakumod"
   },
-  "resources": [],
-  "source-url": "https://github.com/markldevine/raku-Hypervisor-IBM-POWER-HMC.git",
-  "tags": [
+  "resources":      [],
+  "source-url":     "https://github.com/markldevine/raku-Hypervisor-IBM-POWER-HMC-REST-PowerEnterprisePool.git",
+  "tags":           [
     "HMC",
     "REST"
   ],
-  "version": "0.0.1"
+  "version":        "0.0.1"
 }
