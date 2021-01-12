@@ -11,7 +11,9 @@ unit    class Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool:api<1>:auth
             does Hypervisor::IBM::POWER::HMC::REST::Config::Optimize
             does Hypervisor::IBM::POWER::HMC::REST::ETL::XML;
 
+my      Bool                                        $names-checked  = False;
 my      Bool                                        $analyzed       = False;
+my      Lock                                        $lock           = Lock.new;
 has     Hypervisor::IBM::POWER::HMC::REST::Config   $.config        is required;
 has     Bool                                        $.initialized   = False;
 
