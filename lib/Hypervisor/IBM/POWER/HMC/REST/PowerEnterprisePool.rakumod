@@ -11,8 +11,9 @@ unit    class Hypervisor::IBM::POWER::HMC::REST::PowerEnterprisePool:api<1>:auth
             does Hypervisor::IBM::POWER::HMC::REST::Config::Optimize
             does Hypervisor::IBM::POWER::HMC::REST::ETL::XML;
 
-has     Hypervisor::IBM::POWER::HMC::REST::Config   $.config is required;
-has     Bool                                        $.initialized = False;
+my      Bool                                        $analyzed       = False;
+has     Hypervisor::IBM::POWER::HMC::REST::Config   $.config        is required;
+has     Bool                                        $.initialized   = False;
 
 method  xml-name-exceptions () { return set (); }
 
